@@ -38,6 +38,11 @@ include('connect.php');
                         ?>
                         <div class="card text-white bg-dark mb-3" style="width: 25rem;"  alt="">
                             <img class="card-img-top" <?php echo "<img src='profile/".$row['profileimage']."'>"?> 
+                            <div>
+                                <a href="edit.php?id=<?php echo $row['id']?>"><button class="btn btn-primary">Edit</button></a>
+                                <a href="delete.php?id=<?php echo $row['id']?>"><button class="btn btn-danger">Delete</button></a>
+                            </div>
+
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $row['movie']?></h5>
                                 <p class="card-text"><?php echo $row['comment']?> </p>
