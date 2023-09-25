@@ -48,6 +48,14 @@ include('connect.php');
                                 <p class="card-text"><?php echo $row['comment']?> </p>
                                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a>-->
                             </div>
+                            <div>
+                                <button>Success.</button>
+                            </div>
+                            ....
+                            ..
+                            ,,
+                            <p>loook</p>
+
                         </div>
                         <?php
                             }?>
