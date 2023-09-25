@@ -49,7 +49,7 @@ include('connect.php');
                                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a>-->
                             </div>
                             <div>
-                                <button>Success</button>
+                                <button>Success.</button>
                             </div>
                             ....
                             ..
